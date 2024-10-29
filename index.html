@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORM</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <section class="container">
+        <header>Registration Form</header>
+
+        <form action="#" class="form">
+
+        <div class="input-box">
+            <label >Full Name:</label>
+            <input type="text" placeholder="Enter Full Name" required> 
+        </div>
+        
+        <div class="input-box">
+            <label >Email:</label>
+            <input type="text" placeholder="Enter Email Address" required>
+        </div>
+
+<div class="column">
+    <div class="input-box">
+        <label >Phone Number:</label>
+        <input type="number" placeholder="Enter Phone Number" required  >
+    </div>
+    <div class="input-box">
+        <label >Birth Date:</label>
+        <input type="date" placeholder="Enter Date of Birth" required  >
+    </div>
+     
+</div>
+
+<div class="gender-box">
+
+<h1>Gender</h1>
+
+
+<div class="gender-option">
+
+    <div class="gender">
+        <input type="radio"id="check-male" name="gender" />
+        <label for="check-male">Male</label>
+    </div>
+
+    <div class="gender">
+        <input type="radio"id="check-female" name="gender" />
+        <label for="check-female">Female</label>
+    </div>
+
+    <div class="gender">
+        <input type="radio"id="check-not" name="gender" />
+        <label for="check-not">Not to Say</label>
+    </div>
+
+
+</div>
+
+</div>
+
+<div class="input-box address">
+    <label >Address:</label>
+<div class="column">
+<div class="select-box">
+    <select name="" id="">
+        <option  hidden value="">Country</option>
+        <option value="">India</option>
+        <option value="">Pak</option>
+        <option value="">UK</option>
+        <option value="">USA</option>
+        <option value="">Nepal</option>
+        <option value="">Maldives</option>
+        
+    </select>
+</div>
+
+</div>
+
+    <input type="text" placeholder="Enter Address in Details" required  >
+
+    <!-- <input type="text" placeholder="Enter Address in Details" required  > -->
+    <input type="text" placeholder="Enter Street name" required  >
+
+</div>
+ 
+
+<button>Submit</button>
+
+    </form>
+    </section>
+    
+</body>
+</html>
